@@ -4,6 +4,7 @@ public class Player {
 	Integer playerID;
 	String name;
 	
+	
 	public Player(Integer playerID, String name) {
 		super();
 		this.playerID = playerID;
@@ -22,7 +23,7 @@ public class Player {
 	public void setName(String name) {
 		this.name = name;
 	}
-
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
